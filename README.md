@@ -1,3 +1,3 @@
 # Sprint_05
 
-Pour lancer 
+To open this page you need to click at the link in the "About " section.
