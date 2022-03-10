@@ -25,6 +25,8 @@ async function render() {
     let btn = document.createElement("button");
     let text = document.createTextNode("Refresh table");
     btn.appendChild(text);
+    btn.classList = "btn btn-outline-dark btn-warning";
+    document.getElementById("btn_refresh").textContent = "";
     document.getElementById("btn_refresh").appendChild(btn);
 btn.addEventListener("click", function(){
 render();})
