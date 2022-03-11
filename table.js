@@ -24,7 +24,9 @@ async function render() {
     document.getElementById("tableau").innerHTML= results;
     let btn = document.createElement("button");
     let text = document.createTextNode("Refresh table");
+    btn.classList= "btn btn-outline-dark btn-info"
     btn.appendChild(text);
+    document.getElementById("btn_refresh").textContent = "";
     document.getElementById("btn_refresh").appendChild(btn);
 btn.addEventListener("click", function(){
 render();})
