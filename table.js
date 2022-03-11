@@ -26,7 +26,7 @@ async function render() {
     let text = document.createTextNode("Refresh table");
     btn.classList= "btn btn-outline-dark btn-info"
     btn.appendChild(text);
-    document.getElementById("btn_refresh").textContent = "";
+        document.getElementById("btn_refresh").textContent = "";
     document.getElementById("btn_refresh").appendChild(btn);
 btn.addEventListener("click", function(){
 render();})
@@ -42,6 +42,7 @@ render();})
         let btn = document.createElement("button")
         let text = document.createTextNode("Refresh table")
         btn.appendChild(text)
+        btn.classList= "btn btn-outline-dark btn-info";
         document.getElementById("btn_refresh").textContent = "";
         document.getElementById("btn_refresh").appendChild(btn)
         
